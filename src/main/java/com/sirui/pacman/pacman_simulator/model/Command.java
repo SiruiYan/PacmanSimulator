@@ -20,16 +20,16 @@ public class Command {
             switch (commandStr) {
                 case Params.LEFT:
                     command = new LeftCommand();
-                    break;
+                    return command;
                 case Params.RIGHT:
                     command = new RightCommand();
-                    break;
+                    return command;
                 case Params.MOVE:
                     command = new MoveCommand();
-                    break;
+                    return command;
                 case Params.REPORT:
                     command = new ReportCommand();
-                    break;
+                    return command;
             }
         }
 
