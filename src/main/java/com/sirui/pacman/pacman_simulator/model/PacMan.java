@@ -33,7 +33,6 @@ public class PacMan {
 
     //move forward in the direction the pacman is currently facing
     public void move(){
-        LegalPositionValidator legalPositionValidator = new LegalPositionValidator();
         int nextX = positionX;
         int nextY = positionY;
 
@@ -53,7 +52,7 @@ public class PacMan {
         }
 
         //check whether the position pacman moves to is legal
-        boolean isLegalMove = legalPositionValidator.validate(nextX, nextY);
+        boolean isLegalMove = LegalPositionValidator.validate(nextX, nextY);
         if(isLegalMove){
             this.positionX = nextX;
             this.positionY = nextY;

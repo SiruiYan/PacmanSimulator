@@ -6,7 +6,7 @@ import com.sun.tools.javac.util.List;
 public class LegalDirectionValidator {
     private static final List<String> directions = List.of(Params.NORTH, Params.SOUTH, Params.EAST, Params.WEST);
 
-    public boolean validate(String direction){
+    public static boolean validate(String direction){
         if (directions.contains(direction)){
             return true;
         }

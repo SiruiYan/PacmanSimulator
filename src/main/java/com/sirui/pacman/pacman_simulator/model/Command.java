@@ -41,9 +41,8 @@ public class Command {
             int positionX = Integer.parseInt(matcher.group(1));
             int positionY = Integer.parseInt(matcher.group(2));
             String direction = matcher.group(3);
-            LegalDirectionValidator legalDirectionValidator = new LegalDirectionValidator();
 
-            if (legalDirectionValidator.validate(direction))
+            if (LegalDirectionValidator.validate(direction))
                 command = new PlaceCommand(positionX, positionY, direction);
         }
 
@@ -56,7 +55,6 @@ public class Command {
 
     //check if the current position of pacman is legal (on the grid)
     public boolean isLegal(PacMan pacMan){
-        LegalPositionValidator legalPositionValidator = new LegalPositionValidator();
-        return legalPositionValidator.validate(pacMan.getPositionX(), pacMan.getPositionY());
+        return LegalPositionValidator.validate(pacMan.getPositionX(), pacMan.getPositionY());
     }
 }
