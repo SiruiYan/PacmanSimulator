@@ -4,7 +4,7 @@ import com.sirui.pacman.pacman_simulator.validator.LegalPositionValidator;
 
 /**
  * PacMan.java models the state and possible actions of a pacman
- * @author Sirui Yan
+ * @author SiruiYan
  */
 
 public class PacMan {

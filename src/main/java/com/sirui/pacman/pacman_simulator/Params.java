@@ -7,5 +7,21 @@ public class Params {
     //The height of the grid
     public final static int GRID_HEIGHT = 5;
 
+    public final static String NORTH = "NORTH";
+
+    public final static String SOUTH = "SOUTH";
+
+    public final static String EAST = "EAST";
+
+    public final static String WEST = "WEST";
+
+    public final static String LEFT = "LEFT";
+
+    public final static String RIGHT = "RIGHT";
+
+    public final static String MOVE = "MOVE";
+
+    public final static String REPORT = "REPORT";
+
     public final static int ZERO = 0;
 }
