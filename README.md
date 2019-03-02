@@ -28,6 +28,12 @@ Constraints:
 - Pacman must not move off the grid during movement. This also includes the initial placement of Pacman.
 - Any move that would cause Pacman to fall must be ignored.
 
+## How to run
+This is a gradle project. To run this project, open the project in Intellij and run PacmanSimulatorApplication.java.\
+You can also run the project using command line, see https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_bootstrapping_projects for more details.\
+The input of this program is the file with default file path(src/main/resources/commands). You can modify the commands in this file or change the default file path in Params.java.
+
 ## Test
-All test cases can be found under src/main/resources/test_cases folder.
-test results: src/main/resources/Test Results - PacmanSimulatorApplicationTests.html
+To run all the unit tests, run PacmanSimulatorApplicationTests.java.\
+All test cases can be found under src/main/resources/test_cases folder.\
+Test results can be found at src/main/resources/Test Results - PacmanSimulatorApplicationTests.html
