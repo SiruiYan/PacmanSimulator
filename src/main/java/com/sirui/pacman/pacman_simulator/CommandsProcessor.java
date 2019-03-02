@@ -29,7 +29,7 @@ public class CommandsProcessor {
             String command = reader.readLine();
             while(command != null){
                 command.trim();
-                System.out.println(command);
+//                System.out.println(command);
                 processCommand(command);
                 command = reader.readLine();
             }

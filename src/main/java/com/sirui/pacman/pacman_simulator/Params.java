@@ -23,5 +23,8 @@ public class Params {
 
     public final static String REPORT = "REPORT";
 
+    //the file path of commands file
+    public final static String FILEPATH = "src/main/resources/commands";
+
     public final static int ZERO = 0;
 }

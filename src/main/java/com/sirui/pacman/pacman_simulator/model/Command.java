@@ -46,6 +46,7 @@ public class Command {
             if (legalDirectionValidator.validate(direction))
                 command = new PlaceCommand(positionX, positionY, direction);
         }
+
         return command;
     }
 

@@ -1,0 +1,154 @@
+Test case 1
+FSHJKFHS
+FDSHJF
+THKHDSJKGHS
+Expected Result:
+
+Test case 2
+PLACE 0,0,SOUTH
+Expected Result:
+
+Test case 3
+PLACE 5,0,EAST
+REPORT
+Expected Result:
+
+Test case 4
+PLACE 0,0,NORTH
+REPORT
+Expected Result:
+Output: 0,0,NORTH
+
+Test case 5
+PLACE 4,4,SOUTH
+LEFT
+REPORT
+Expected Result:
+Output: 4,4,EAST
+
+Test case 6
+PLACE 0,0,WEST
+RIGHT
+REPORT
+Expected Result:
+Output: 0,0,NORTH
+
+Test case 7
+PLACE 4,4,NORTH
+MOVE
+REPORT
+Expected Result:
+Output: 4,4,NORTH
+
+Test case 8
+PLACE 4,4,EAST
+MOVE
+REPORT
+Expected Result:
+Output: 4,4,EAST
+
+Test case 9
+PLACE 4,4,WEST
+MOVE
+REPORT
+Expected Result:
+Output: 3,4,WEST
+
+Test case 10
+PLACE 4,4,NORTH
+LEFT
+MOVE
+REPORT
+Expected Result:
+Output: 3,4,WEST
+
+Test case 11
+PLACE 4,4,SOUTH
+MOVE
+REPORT
+Expected Result:
+Output: 4,3,SOUTH
+
+Test case 12
+PLACE 4,4,EAST
+RIGHT
+MOVE
+REPORT
+Expected Result:
+Output: 4,3,SOUTH
+
+Test case 13
+PLACE 5,0,WEST
+MOVE
+REPORT
+Expected Result:
+
+Test case 14
+PLACE 0,-1,NORTH
+RIGHT
+REPORT
+Expected Result:
+
+Test case 15
+PLACE 5,5,SOUTH
+LEFT
+REPORT
+Expected Result:
+
+Test case 16
+PLACE -1,0,EAST
+PLACE 0,4,NORTH
+REPORT
+Expected Result:
+Output: 0,4,NORTH
+
+Test case 17
+RIGHT
+REPORT
+Expected Result:
+
+Test case 18
+LEFT
+PLACE 0,0,WEST
+REPORT
+Expected Result:
+Output: 0,0,WEST
+
+Test case 19
+PLACE 4,4,NORTH
+MOVE
+LEFT
+LEFT
+MOVE
+LEFT
+MOVE
+RIGHT
+RIGHT
+MOVE
+REPORT
+Expected Result:
+Output: 3,3,WEST
+
+Test case 20
+PLACE 1,2,EAST
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
+Expected Result:
+Output: 3,3,NORTH
+
+Test case 21
+PLACE 0,0,NORTH
+LEFT
+REPORT
+Expected Result:
+Output: 0,0,WEST
+
+Test case 22
+PLACE 0,0,NORTH
+MOVE
+REPORT
+Expected Result:
+Output: 0,1,NORTH
